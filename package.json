@@ -16,7 +16,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "git-add": "rmdir /S docs && npm run build && rename build docs && git add ."
+        "git-build": "rmdir /S docs && npm run build && rename build docs && git add ."
     },
     "eslintConfig": {
         "extends": [
