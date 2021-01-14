@@ -74,18 +74,6 @@ function App() {
         },
     };
     const mentionVariants = {
-        hidden: {
-            opacity: 0,
-            y: 100,
-        },
-        visible: {
-            opacity: 1,
-            y: 0,
-            transition: {
-                duration: 2,
-                delay: 1,
-            },
-        },
         hover: {
             color: [
                 '#AAAAA6',
@@ -95,6 +83,9 @@ function App() {
                 '#CF9965',
                 '#E06C75',
             ],
+            transition: {
+                repeat: 'Infinity',
+            },
         },
     };
 
